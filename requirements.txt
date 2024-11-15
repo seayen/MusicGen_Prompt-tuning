@@ -1,4 +1,15 @@
 transformers
+datasets
+soundfile
+librosa
+sentencepiece
+audiocraft
+safetensors
+encodec
+peft
+pydub
+ffmpeg
+
 
 --extra-index-url https://download.pytorch.org/whl/cu124
 torch==2.4.1+cu124
@@ -6,3 +17,4 @@ torch==2.4.1+cu124
 torchaudio==2.4.1+cu124
 --extra-index-url https://download.pytorch.org/whl/cu124
 torchvision==0.19.1+cu124
+
